@@ -12,3 +12,6 @@ services:
 
   ceremonies:
     image: ghcr.io/drachenwald/ceremonies:main
+
+  forms:
+    image: ghcr.io/drachenwald/forms:main
