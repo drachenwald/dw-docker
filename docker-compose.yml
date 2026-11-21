@@ -10,3 +10,5 @@ services:
   drachenwald:
     image: ghcr.io/drachenwald/drachenwald:main
 
+  ceremonies:
+    image: ghcr.io/drachenwald/ceremonies:main
