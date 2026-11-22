@@ -9,9 +9,16 @@ services:
 
   drachenwald:
     image: ghcr.io/drachenwald/drachenwald:main
+    pull_policy: always
+  
+  staging:
+    image: ghcr.io/drachenwald/drachenwald:staging
+    pull_policy: always
 
   ceremonies:
     image: ghcr.io/drachenwald/ceremonies:main
+    pull_policy: always
 
   forms:
     image: ghcr.io/drachenwald/forms:main
+    pull_policy: always
