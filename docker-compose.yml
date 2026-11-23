@@ -22,3 +22,7 @@ services:
   forms:
     image: ghcr.io/drachenwald/forms:main
     pull_policy: always
+
+  scripts:
+    image: ghcr.io/drachenwald/scripts:main
+    pull_policy: always
