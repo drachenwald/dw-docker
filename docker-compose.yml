@@ -24,5 +24,5 @@ services:
     pull_policy: always
 
   scripts:
-    image: ghcr.io/drachenwald/scripts:main
+    image: ghcr.io/drachenwald/dw-scripts:main
     pull_policy: always
